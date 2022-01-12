@@ -1,0 +1,125 @@
+= Verwaltungsrechtsweg eröffnet =
+
+[plantuml]
+....
+@startwbs
+!include ../styles/ius.iuml
+* Vw-Rechtsweg eröffnet
+** aufdrängende Sonderzuweisung
+** Vw-Rechtsweg 40 I VwGO
+*** Öff-rechtl. Streitigkeit
+**** modifizierte Subjektth.
+***** streitentsch. Norm berechtigen/verpfl. ausschl. Hoheitsträger
+**** Sonderrechtsth.
+**** Subordinations
+***** Wenn Unter/Überordnungsverhältnis besteht
+*** nichtverfassungsrechtlich
+**** doppelt verfassungsunmittelbar
+*** keine abdrängende Zuweisung
+@endwbs
+....
+
+= Zulässigkeit der Klagearten =
+== Fortsetzungsfeststellungsklage ==
+
+[plantuml]
+....
+@startwbs
+!include ../styles/ius.iuml
+* Fortsetzungsfeststellungsklage zulässig
+** Statthafte Klageart 88a Klagebegehren
+***< Var. 1 Erledigung der Anfechtungsklage **nach** Klageerhebung <<var1>>
+**** Begehrt Aufhebung der Untersagung, 42 I VwGO
+**** Erledigung
+***** rechtlich
+****** Zurücknahme
+***** tatsächlich
+***** Zeitablauf
+**** Fortsetzungsfeststellungsklage 113 I 4 VwGO
+***** Vw-Akt liegt vor
+****** Massnahme
+****** Behörde
+****** Gebiet des öff. R.
+****** Hoheitlich
+****** Regelung
+***< Var. 2 Erledigung der Anfechtungsklage **vor** Klageerhebung<<var2>>
+**** Begehrt Aufhebung der Untersagung, 42 I VwGO
+**** Anfechtungsklage scheidet aus, da erledigt
+**** Fortsetzungsfeststell.-Kl. analog 113 I 4 VwGO
+***** Streit
+****** hM analoge Anwendung 113 I 4 VwGO?
+******* planwidrige Regelungslücke
+******* vergleichbare Interessenslage
+****** Feststellungsklage
+******* hM VA kann kein Rechtsverhältnis sein
+***< Var. 3, Erledigung der Verpflichtungsklage **nach** Klageerhebung <<var3>>
+**** Begehrt Erlass eines begünstigenden VA, Verpflichtungsklage, 42 I Var. 2
+**** Verpflichtungsklage bei Entscheidung nicht mehr möglich, scheidet aus, da Markt beendet
+**** Fortsetzungsfeststellungsklage analog 113 I 4 VwGO
+***** Streit ...
+****** hM: ist eine planwidrige Regelungslücke
+****** oder gewohnheitsrechjtlich?
+***** 113 I 4 VwGO nicht anwendbar, da nicht für
+***< Var. 4, Erledigung der Verpflichtungsklage **vor**S Klageerhebung <<var4>>
+**** Fortsetzungsfeststellungsklage doppelt analog, wg. vor Klageerhebung und wg Verpflichtung
+***< Antrag 113 I 4 VwGO erforderlich <size:30><&question-mark> <<questionable>>
+** Klagebefugnis
+*** Bei Var. 1 <<var1>>
+**** Ursprüngliche Klage muss zulässig sein
+***** Möglichkeit einer Rechtsverletzung in einem eigenen Recht, 42 II VwGO
+***** Vorverfahren
+***** Klagefrist 74 VwGO
+*** Var. 2 <<var2>>
+**** Vorverfahren
+***** Ermöglicht Selbstkontrolle der Verwaltung
+***** aber ist ein Spezialfall der Feststellungsklage
+**** Umgehung der Fristen? Sind Klage- und Widerrufsfristen zum Zpt der Erledigung des VA noch nicht abgelaufen, besteht die GEfahr nicht
+***** dann kein Vorverfahren, keine Klagefrist anwendbar
+***** anders formuliert: waren Fristen z Zpkt. der Erledigung abgelaufen?
+**** Feststellungsinteresse
+*** Var. 3 <<var3>>
+**** Verpflichtungsklage muss zul. sein
+***** Mögl. dass Kl durch Unterlassen des VA in seinen Rechten verletzt war
+****** wenn Kl auf Erlass des begehreten VA hatte
+******* hier: § 70 I GewO
+***** Vorverfahren
+***** Klagefrist
+**** Feststellungsinteresse
+*** Var. 4 <<var4>>
+**** Verpflichtungsklage muss zul. sein wie Var. 3
+***** ...
+**** Fristen relevant zum Zeitpunkt der Erledigung wie Var. 2
+*** Feststellungsinteresse
+**** Wiederholungsgefahr
+**** Rehabilitationsinteresse (nicht bei Erledigung vor Klage!)
+**** Beabsichtigter Amtshaftungs oder Entschädigungsprozess
+***** nur bei Erledigung nach Klageerhebung, sonst direkt ordentl. Rechtsweg "Früchte des Prozesses dürfen nicht verloren gehen"
+**** Tiefgreifende Grundrechtsbeeinträchtigung
+***** fortwährender GR-Eingriff
+***** schwerwiegender GR-Eingriff
+****** Intensität
+****** Art
+****** Bedeutung des GR
+** Klagegegner
+** Beteiligten/Prozessfähigkeit
+*** Beklagte
+' **** 62 III
+*** Kläger
+' **** 63
+@endwbs
+....
+
+Obersatz zur Begründetheit:
+
+- bei Anfechtungsklage:
+
+  Die Klage ist begründet, soweit der VA rechtswidrig war und den Kläger in seinen Rechten verletzt hat, 113 I 4 GO (wenn vor Klageerhebung, "analog")
+
+- bei Verpflichtungsklage:
+
+  FFKl ist begründet, soweit die Nichterteilung des VA rechtswidrig war und den Kl in seinen Rechten verletzt hat, analog 113 I 4 GO
+
+- bei Erledigung vor Klageerhebung, ein analog zusätzlich
+
+
+
