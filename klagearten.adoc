@@ -3,7 +3,7 @@
 [plantuml]
 ----
 @startwbs
-!include ius.iuml
+
 * Vw-Rechtsweg eröffnet
 ** aufdrängende Sonderzuweisung
 ** Vw-Rechtsweg 40 I VwGO
