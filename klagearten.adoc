@@ -2,8 +2,73 @@
 
 [plantuml]
 ----
-@startwbs
-!include ius.iuml
+@startmindmap
+<style>
+rootNode {
+    BackgroundColor lightblue
+}
+node {
+    Padding 12
+    Margin 3
+    LineColor black
+    MaximumWidth 250
+}
+
+arrow {
+    LineColor black
+}
+
+opt {
+    LineStyle 2
+    BackgroundColor lightgrey
+}
+
+small {
+    HorizontalAlignment center
+    MaximumWidth 130
+}
+
+boxless {
+    MaximumWidth 130
+}
+
+or {
+    BackgroundColor lightgreen
+}
+
+extend {
+    LineStyle 4
+    BackgroundColor lightblue
+}
+
+cond {
+    BackgroundColor orange
+    HorizontalAlignment center
+    MaximumWidth 130
+}
+
+.var1 * {
+    BackgroundColor powderblue
+}
+
+.var2 * {
+    BackgroundColor lightpink
+}
+
+.var3 * {
+    BackgroundColor palegreen
+}
+
+.var4 * {
+    BackgroundColor thistle
+}
+
+.questionable {
+    LineColor red
+    LineWidth 10
+}
+</style>
+
 * Vw-Rechtsweg eröffnet
 ** aufdrängende Sonderzuweisung
 ** Vw-Rechtsweg 40 I VwGO
@@ -24,11 +89,77 @@
 
 [plantuml]
 ----
-@startwbs
-!include ../styles/ius.iuml
+
+@startmindmap
+<style>
+rootNode {
+    BackgroundColor lightblue
+}
+node {
+    Padding 12
+    Margin 3
+    LineColor black
+    MaximumWidth 250
+}
+
+arrow {
+    LineColor black
+}
+
+opt {
+    LineStyle 2
+    BackgroundColor lightgrey
+}
+
+small {
+    HorizontalAlignment center
+    MaximumWidth 130
+}
+
+boxless {
+    MaximumWidth 130
+}
+
+or {
+    BackgroundColor lightgreen
+}
+
+extend {
+    LineStyle 4
+    BackgroundColor lightblue
+}
+
+cond {
+    BackgroundColor orange
+    HorizontalAlignment center
+    MaximumWidth 130
+}
+
+.var1 * {
+    BackgroundColor powderblue
+}
+
+.var2 * {
+    BackgroundColor lightpink
+}
+
+.var3 * {
+    BackgroundColor palegreen
+}
+
+.var4 * {
+    BackgroundColor thistle
+}
+
+.questionable {
+    LineColor red
+    LineWidth 10
+}
+</style>
+
 * Fortsetzungsfeststellungsklage zulässig
 ** Statthafte Klageart 88a Klagebegehren
-***< Var. 1 Erledigung der Anfechtungsklage **nach** Klageerhebung <<var1>>
+*** Var. 1 Erledigung der Anfechtungsklage **nach** Klageerhebung <<var1>>
 **** Begehrt Aufhebung der Untersagung, 42 I VwGO
 **** Erledigung
 ***** rechtlich
@@ -42,7 +173,7 @@
 ****** Gebiet des öff. R.
 ****** Hoheitlich
 ****** Regelung
-***< Var. 2 Erledigung der Anfechtungsklage **vor** Klageerhebung<<var2>>
+*** Var. 2 Erledigung der Anfechtungsklage **vor** Klageerhebung<<var2>>
 **** Begehrt Aufhebung der Untersagung, 42 I VwGO
 **** Anfechtungsklage scheidet aus, da erledigt
 **** Fortsetzungsfeststell.-Kl. analog 113 I 4 VwGO
@@ -52,7 +183,7 @@
 ******* vergleichbare Interessenslage
 ****** Feststellungsklage
 ******* hM VA kann kein Rechtsverhältnis sein
-***< Var. 3, Erledigung der Verpflichtungsklage **nach** Klageerhebung <<var3>>
+*** Var. 3, Erledigung der Verpflichtungsklage **nach** Klageerhebung <<var3>>
 **** Begehrt Erlass eines begünstigenden VA, Verpflichtungsklage, 42 I Var. 2
 **** Verpflichtungsklage bei Entscheidung nicht mehr möglich, scheidet aus, da Markt beendet
 **** Fortsetzungsfeststellungsklage analog 113 I 4 VwGO
@@ -60,9 +191,9 @@
 ****** hM: ist eine planwidrige Regelungslücke
 ****** oder gewohnheitsrechjtlich?
 ***** 113 I 4 VwGO nicht anwendbar, da nicht für
-***< Var. 4, Erledigung der Verpflichtungsklage **vor**S Klageerhebung <<var4>>
+*** Var. 4, Erledigung der Verpflichtungsklage **vor**S Klageerhebung <<var4>>
 **** Fortsetzungsfeststellungsklage doppelt analog, wg. vor Klageerhebung und wg Verpflichtung
-***< Antrag 113 I 4 VwGO erforderlich <size:30><&question-mark> <<questionable>>
+*** Antrag 113 I 4 VwGO erforderlich <size:30><&question-mark> <<questionable>>
 ** Klagebefugnis
 *** Bei Var. 1 <<var1>>
 **** Ursprüngliche Klage muss zulässig sein
@@ -106,7 +237,7 @@
 ' **** 62 III
 *** Kläger
 ' **** 63
-@endwbs
+@endmindmap
 ----
 
 Obersatz zur Begründetheit:
