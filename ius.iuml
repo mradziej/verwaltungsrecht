@@ -1,0 +1,65 @@
+<style>
+rootNode {
+    BackgroundColor lightblue
+}
+node {
+    Padding 12
+    Margin 3
+    LineColor black
+    MaximumWidth 250
+}
+
+arrow {
+    LineColor black
+}
+
+opt {
+    LineStyle 2
+    BackgroundColor lightgrey
+}
+
+small {
+    HorizontalAlignment center
+    MaximumWidth 130
+}
+
+boxless {
+    MaximumWidth 130
+}
+
+or {
+    BackgroundColor lightgreen
+}
+
+extend {
+    LineStyle 4
+    BackgroundColor lightblue
+}
+
+cond {
+    BackgroundColor orange
+    HorizontalAlignment center
+    MaximumWidth 130
+}
+
+.var1 * {
+    BackgroundColor powderblue
+}
+
+.var2 * {
+    BackgroundColor lightpink
+}
+
+.var3 * {
+    BackgroundColor palegreen
+}
+
+.var4 * {
+    BackgroundColor thistle
+}
+
+.questionable {
+    LineColor red
+    LineWidth 10
+}
+</style>

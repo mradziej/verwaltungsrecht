@@ -1,9 +1,9 @@
 = Verwaltungsrechtsweg eröffnet =
 
 [plantuml]
-....
+----
 @startwbs
-!include ../styles/ius.iuml
+!include ius.iuml
 * Vw-Rechtsweg eröffnet
 ** aufdrängende Sonderzuweisung
 ** Vw-Rechtsweg 40 I VwGO
@@ -17,13 +17,13 @@
 **** doppelt verfassungsunmittelbar
 *** keine abdrängende Zuweisung
 @endwbs
-....
+----
 
 = Zulässigkeit der Klagearten =
 == Fortsetzungsfeststellungsklage ==
 
 [plantuml]
-....
+----
 @startwbs
 !include ../styles/ius.iuml
 * Fortsetzungsfeststellungsklage zulässig
@@ -107,7 +107,7 @@
 *** Kläger
 ' **** 63
 @endwbs
-....
+----
 
 Obersatz zur Begründetheit:
 
